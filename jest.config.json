@@ -3,6 +3,7 @@
 
   "rootDir": "./",
   "scriptPreprocessor": "<rootDir>/node_modules/ts-jest/preprocessor.js",
+  "testResultsProcessor": "<rootDir>/node_modules/ts-jest/coverageprocessor.js",
   "testRegex": "/specs/.*\\.(ts|tsx|js)$",
   "testEnvironment": "node",
   "coverageReporters": ["html", "json", "text"],

@@ -11,7 +11,7 @@ describe('TestComponent', () => {
       const wrapper = shallow(<TestComponent />);
 
       expect(wrapper.html()).toEqual('<div></div>');
-      setTimeout(() => done, jasmine.DEFAULT_TIMEOUT_INTERVAL - 1);
+      setTimeout(() => done, jasmine.DEFAULT_TIMEOUT_INTERVAL);
     });
 
   });
