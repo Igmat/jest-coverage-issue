@@ -3,18 +3,19 @@
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
-    "test": "./node_modules/.bin/jest --config ./jest.config.json --coverage"
+    "test": "rimraf coverage/**/* && jest --config ./jest.config.json --coverage --no-cache"
   },
   "author": "",
   "license": "ISC",
   "description": "",
   "devDependencies": {
     "enzyme": "^2.4.1",
-    "jest": "^16.0.1",
+    "jest": "^16.0.2",
     "react": "^15.3.2",
     "react-addons-test-utils": "^15.3.2",
     "react-dom": "^15.3.2",
     "ts-jest": "^0.1.11",
-    "typescript": "^2.0.6"
+    "typescript": "^2.0.6",
+    "rimraf": "^2.5.4"
   }
 }
